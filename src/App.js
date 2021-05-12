@@ -4,7 +4,6 @@ import {
   Route,
 } from 'react-router-dom'
 
-import Game from './components/game'
 import './mock/addressData'
 import ReceiptAddress from "./pages/ReceiptAddress";
 import TicketAddress from './pages/TicketAddress'
@@ -18,8 +17,8 @@ export class App extends Component {
   render() {
     return (
       <div>
+        <h3>React高阶组件Demo  切换路由即可查看  不同路由请看App.js</h3>
         <Router>
-          <Route path='/Game' component={Game} />
           {/*传统方式*/}
           <Route path='/TraditionWay' component={TraditionWay} />
           {/*收货地址*/}

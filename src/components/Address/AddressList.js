@@ -15,7 +15,7 @@ class AddressList extends Component {
         </tr>
       )
     })
-    return <table border={1} cellSpacing={0} cellPadding={10}>
+    return <table border={1} cellSpacing={0} cellPadding={10} width={'80%'}>
       <thead>
       <tr>
         <th>类型</th>
